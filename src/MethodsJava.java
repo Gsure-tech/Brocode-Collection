@@ -1,3 +1,5 @@
+import java.io.File;
+
 public class MethodsJava {
     public static void main(String[] args) {
       String name = "Bro";
@@ -7,7 +9,12 @@ public class MethodsJava {
         int y =4;
         //int z = add(x,y);
         System.out.println(add(y,x));
-
+        File myfile= new File("secret_message.txt");
+        if(myfile.exists()){
+            System.out.println("This file exist");
+        }else{
+            System.out.println("this file doest exist");
+        }
     }
 //   static void  hello(String name, int age){
 //       System.out.println("Hello " + name);
