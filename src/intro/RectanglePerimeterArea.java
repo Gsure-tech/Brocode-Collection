@@ -7,8 +7,8 @@ public class RectanglePerimeterArea {
     }
 
     public void areaOfRectangle() {
-        double length = 25;
-        double width = 30;
+        double length = 35;
+        double width = 20;
         double area = length * width;
         System.out.printf("Area of rectangle is: %.2f", area);
     }
