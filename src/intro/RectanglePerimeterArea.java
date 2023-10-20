@@ -1,5 +1,7 @@
 package intro;
 
+import java.util.Scanner;
+
 public class RectanglePerimeterArea {
     public double calculateArea(int width, int length) {
         return width * length;
@@ -19,5 +21,6 @@ public class RectanglePerimeterArea {
        RectanglePerimeterArea rectanglePerimeterArea = new RectanglePerimeterArea();
        rectanglePerimeterArea.areaOfRectangle(20, 23);
        rectanglePerimeterArea.perimeterOfRectangle(25, 4);
+        Scanner scanner = new Scanner(System.in);
     }
 }
