@@ -19,8 +19,14 @@ public class RectanglePerimeterArea {
 
     public static void main(String[] args) {
        RectanglePerimeterArea rectanglePerimeterArea = new RectanglePerimeterArea();
-       rectanglePerimeterArea.areaOfRectangle(20, 23);
-       rectanglePerimeterArea.perimeterOfRectangle(25, 4);
+//       rectanglePerimeterArea.areaOfRectangle(20, 23);
+//       rectanglePerimeterArea.perimeterOfRectangle(25, 4);
 
+       Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the length of the rectangle");
+        double length = sc.nextDouble();
+        System.out.println("Enter the width of the rectangle");
+        double width = sc.nextDouble();
+        rectanglePerimeterArea.areaOfRectangle(length,width);
     }
 }
