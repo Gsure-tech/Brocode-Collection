@@ -23,10 +23,21 @@ public class RectanglePerimeterArea {
 //       rectanglePerimeterArea.perimeterOfRectangle(25, 4);
 
        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the length of the rectangle");
-        double length = sc.nextDouble();
-        System.out.println("Enter the width of the rectangle");
-        double width = sc.nextDouble();
-        rectanglePerimeterArea.areaOfRectangle(length,width);
+//        System.out.println("Enter the length of the rectangle");
+//        double length = sc.nextDouble();
+//        System.out.println("Enter the width of the rectangle");
+//        double width = sc.nextDouble();
+        //2rectanglePerimeterArea.areaOfRectangle(length,width);
+
+        System.out.println("Do you want to calculate the perimeter of the rectangle?  YES/NO");
+        String answer = sc.nextLine();
+        if(answer.equals("yes")){
+            System.out.println("Enter the length");
+            double length = sc.nextDouble();
+            System.out.println("Enter the width");
+            double width = sc.nextDouble();
+            rectanglePerimeterArea.perimeterOfRectangle(length,width);
+        }
+        else System.out.println("program terminated");
     }
 }
