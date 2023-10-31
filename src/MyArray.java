@@ -56,6 +56,7 @@ ArrayList<ArrayList<String>> groceryList = new ArrayList();
         animals.add("dog");
         animals.add("rat");
         animals.add("bat");
+        animals.add("pig");
 
         for (String myAnimals:animals) {
             System.out.println(myAnimals);
